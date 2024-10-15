@@ -55,7 +55,7 @@ Include the Plugin on your document's  before `</body>` tag.
 Instead of installing you may use the remote version.
 
 ```html
-  <script src="https://cdn.jsdelivr.net/npm/snap-dialog-js@latest/dist/snap-dialog.js">
+  <script src="https://cdn.jsdelivr.net/npm/snap-dialog-js@latest/dist/snap-dialog.js"></script>
   <!-- Or -->
   <script src="https://unpkg.com/snap-dialog-js@latest/dist/snap-dialog.min.js"></script>
 ```
