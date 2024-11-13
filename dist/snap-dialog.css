@@ -16,6 +16,7 @@
     background-color: rgba(0,0,0,.5);
     backdrop-filter: blur(10px);
     opacity: 0;
+    z-index: 2;
 }
 
 .snapDialog-item::-webkit-scrollbar {
@@ -23,7 +24,7 @@
 }
 
 .snapDialog-item {
-    position: absolute;
+    position: fixed;
     background-color: #B7B7B7;
     max-width: 400px;
     width: calc( 100% - 40px ) !important;
@@ -42,11 +43,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    z-index: 3;
 }
 
 
 .snapDialog-main {
     position: relative;
+    width: 100% !important;
 }
 /* Alert Position */
 
@@ -242,7 +245,7 @@
 }
 
 .snapDialog-item .snapDialog-title {
-    font-size: 30px;
+    font-size: 19px;
     margin-bottom: 5px;
     font-weight: bolder !important;
 }
