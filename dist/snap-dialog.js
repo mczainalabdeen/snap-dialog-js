@@ -77,7 +77,7 @@
         }
     
         const createDialog = (type = null,title = null,  message = null, options = {}) => {
-            settings = Object.assign({}, setOptions ? setOptions : defaultOptions , options);
+            const settings = Object.assign({}, setOptions ? setOptions : defaultOptions , options);
 
             if (type && type != "html") {
                 settings.type = type;
