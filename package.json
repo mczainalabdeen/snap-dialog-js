@@ -1,6 +1,6 @@
 {
   "name": "snap-dialog-js",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "SnapDialog is a versatile JavaScript plugin offering customizable prompt boxes and notification dialog alerts. Capture user input or deliver dynamic notifications with ease. Its intuitive API and flexible options ensure smooth integration, enhancing user interaction while combining simplicity with power.",
   "homepage": "https://zain.picker.sd",
   "scripts": {

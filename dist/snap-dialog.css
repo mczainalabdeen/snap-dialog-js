@@ -27,7 +27,7 @@
     position: fixed;
     background-color: #B7B7B7;
     max-width: 400px;
-    width: calc( 100% - 40px ) !important;
+    width: calc( 100% - 70px ) !important;
     margin: 20px auto ;
     padding: 40px 20px;
     background: rgb(157,156,156);
